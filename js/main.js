@@ -63,7 +63,8 @@ const Game = {
                         text: 'Deu velha!',
                         icon: 'success',
                         confirmButtonText: 'Cool'
-                      })
+                      });
+                      this.game_is_over();
                 } else{
                     this.simbols.changePlayer();
                 }
